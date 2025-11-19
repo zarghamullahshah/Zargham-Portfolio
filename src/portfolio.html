@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zargham Portfolio</title>
+
+  <!-- TAILWIND CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CUSTOM TAILWIND CONFIG -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0A1128',
+            surface: '#0F1B3D',
+            yellowbtn: '#FFC80A'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+      body { font-family: Inter, sans-serif; }
+      h1, h2, h3, h4 { font-family: Poppins, sans-serif; }
+  </style>
+
+</head>
+<body class="bg-primary text-white">
+
+<!-- ================= NAVBAR ================= -->
+<header class="w-full bg-primary border-b border-white/10">
+  <div class="max-w-6xl mx-auto flex items-center justify-between py-5 px-5">
+    <h1 class="font-bold text-xl">Zargham <span class="text-yellowbtn">Portfolio.</span></h1>
+
+    <nav class="hidden md:flex gap-8 text-sm font-medium">
+      <a href="#" class="hover:text-yellowbtn">HOME</a>
+      <a href="#" class="hover:text-yellowbtn">ABOUT</a>
+      <a href="#" class="hover:text-yellowbtn">SERVICE</a>
+      <a href="#" class="hover:text-yellowbtn">PORTFOLIO</a>
+      <a href="#" class="hover:text-yellowbtn">RESUME</a>
+      <a href="#" class="hover:text-yellowbtn">BLOG</a>
+      <a href="#" class="hover:text-yellowbtn">CONTACT</a>
+    </nav>
+  </div>
+</header>
+
+
+<!-- ================= HERO SECTION ================= -->
+<section class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-6 py-24">
+  <div class="flex flex-col justify-center">
+    <p class="text-sm text-yellowbtn mb-1">Hello, Welcome</p>
+
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+      I m Zargham Ullah Shah
+    </h1>
+
+    <p class="text-white/70 mb-6 text-lg max-w-lg">
+      I'm a frontend web developer focused on creating high-performance, scalable, and visually appealing interfaces.
+    </p>
+
+    <button class="bg-yellowbtn text-black font-medium px-1 py-3 rounded-md">
+      Contact us
+    </button>
+  </div>
+
+  <div class="flex justify-center">
+    <img src="https://cdn-icons-png.flaticon.com/512/7065/7065616.png"
+      class="w-80 h-80 rounded-xl bg-white p-5 object-cover">
+  </div>
+</section>
+
+
+<!-- ================= ABOUT SECTION ================= -->
+<section class="bg-surface py-24 px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <div class="relative">
+      <div class="absolute -left-5 -bottom-5 w-full h-full border-4 border-yellowbtn rounded-xl"></div>
+      <img src="https://cdn-icons-png.flaticon.com/512/7065/7065616.png"
+        class="rounded-xl w-full max-w-md z-10 relative bg-white p-5">
+    </div>
+
+    <div>
+      <h2 class="text-3xl font-bold mb-3">About <span class="text-yellowbtn">Me</span></h2>
+      <p class="text-white/70 mb-6 leading-relaxed">
+        I work with HTML, CSS, JavaScript, and Tailwind to bring ideas to life.
+        I love building clean, modern user experiences and improving my skills with every project.
+      </p>
+
+      <button class="bg-yellowbtn text-black font-medium px-6 py-3 rounded-md">
+        Contact us
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SERVICES SECTION ================= -->
+<section class="max-w-6xl mx-auto py-24 px-6">
+  <h2 class="text-3xl font-bold mb-4">
+    My <span class="text-yellowbtn">Service</span>
+  </h2>
+
+  <p class="text-white/70 mb-12 max-w-xl">
+    I build fast, responsive, and user-friendly interfaces using modern web technologies.
+  </p>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <!-- SERVICE CARD -->
+    <div class="bg-surface p-6 rounded-xl shadow-lg">
+      <h3 class="text-xl font-semibold mb-2">Digital Marketing</h3>
+      <p class="text-white/70 text-sm leading-relaxed">
+        Creating appealing graphics and banners to enhance brand presence.
+      </p>
+    </div>
+
+    <div class="bg-surface p-6 rounded-xl shadow-lg">
+      <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+      <p class="text-white/70 text-sm leading-relaxed">
+        Building responsive websites with HTML, CSS, JavaScript and Tailwind.
+      </p>
+    </div>
+
+    <div class="bg-surface p-6 rounded-xl shadow-lg">
+      <h3 class="text-xl font-semibold mb-2">Creative Figma Design</h3>
+      <p class="text-white/70 text-sm leading-relaxed">
+        Designing clean wireframes and interfaces with a modern feel.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= EXPERIENCE SECTION ================= -->
+<section class="bg-surface py-24 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-4">
+      My <span class="text-yellowbtn">Experiences</span>
+    </h2>
+
+    <p class="text-white/70 mb-10 max-w-xl">
+      Here is my professional learning timeline and projects executed over time.
+    </p>
+
+    <div class="grid md:grid-cols-4 gap-6">
+
+      <div class="bg-primary p-6 rounded-xl">
+        <p class="text-white/60 text-sm mb-1">June-2002 - 2020</p>
+        <h3 class="text-lg font-semibold">Web Developer</h3>
+        <p class="text-white/70 text-sm mt-2">
+          Built responsive websites with modern performance.
+        </p>
+      </div>
+
+      <div class="bg-primary p-6 rounded-xl">
+        <p class="text-white/60 text-sm mb-1">June-2002 - 2020</p>
+        <h3 class="text-lg font-semibold">App Developer</h3>
+        <p class="text-white/70 text-sm mt-2">
+          Created smooth and intuitive applications.
+        </p>
+      </div>
+
+      <div class="bg-primary p-6 rounded-xl">
+        <p class="text-white/60 text-sm mb-1">June-2002 - 2020</p>
+        <h3 class="text-lg font-semibold">UX/UI Designer</h3>
+        <p class="text-white/70 text-sm mt-2">
+          Learned modern user interface principles.
+        </p>
+      </div>
+
+      <div class="bg-primary p-6 rounded-xl">
+        <p class="text-white/60 text-sm mb-1">June-2002 - 2020</p>
+        <h3 class="text-lg font-semibold">Figma Designer</h3>
+        <p class="text-white/70 text-sm mt-2">
+          Designed multiple user-friendly layouts.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="max-w-6xl mx-auto py-24 px-6">
+  <h2 class="text-3xl font-bold mb-4">
+    Contact <span class="text-yellowbtn">Me</span>
+  </h2>
+
+  <p class="text-white/70 mb-10 max-w-xl">
+    If you have any queries feel free to contact me.
+  </p>
+
+  <div class="grid md:grid-cols-2 gap-12">
+
+    <div>
+      <p><b>Address:</b> Sahiwal Pakistan</p>
+      <p class="mt-3"><b>Phone:</b> +92 325 0997071</p>
+      <p class="mt-3"><b>Email:</b> zarghamullahshah7071@gmail.com</p>
+      <p class="mt-3"><b>Website:</b> www.portfolio.com</p>
+    </div>
+
+    <div>
+      <input type="text" placeholder="Name"
+        class="w-full bg-surface p-4 rounded-md mb-4 outline-none">
+
+      <textarea placeholder="Message"
+        class="w-full bg-surface p-4 h-32 rounded-md mb-4 outline-none"></textarea>
+
+      <button class="bg-yellowbtn text-black font-medium px-6 py-3 rounded-md">
+        Contact us
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-surface py-10 text-center text-sm text-white/70">
+  <p class="font-semibold text-lg text-white mb-4">
+    Zargham <span class="text-yellowbtn">Portfolio.</span>
+  </p>
+
+  <p class="max-w-2xl mx-auto leading-relaxed mb-6">
+    Thank you for visiting my portfolio. I'm always excited to collaborate and create something meaningful together!
+  </p>
+
+  <p>© 2025 All rights reserved.</p>
+</footer>
+
+</body>
+</html>
